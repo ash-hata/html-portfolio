@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-color: rgb(246, 236, 130);
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+a:any-link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu {
+  background-color: black;
+  padding-bottom: 20px;
+}
+
+.menu-link {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: sans-serif;
+  display: inline-block;
+  margin-right: 80px;
+  margin-top: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.menu-link:last-child {
+  margin-right: 0;
+}
+a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+a:nth-child(3):hover {
+  margin-left: 20px;
+}
+
+a:nth-child(2):hover {
+  margin-right: 90px;
+  margin-left: 10px;
+}
+
+.pic-link:hover {
+  border: blue;
+}
+}
+a:active {
+  background-color: rgb(225, 79, 79);
+}
+
+a:nth-child(1) {
+  background-color: rgb(225, 79, 79);
+  border-radius: 30px;
+  padding: 10px;
+  color: black;
+}
+
+/* format */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* text format */
+h1,
+h2,
+h3,
+p {
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 30px;
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  width: 100%;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.last {
+  margin-bottom: 0;
+}
+
+.ref-txt {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* cat pic */
+.pic-pro {
+  width: 150px;
+  height: auto;
+  background-color: white;
+  padding: 5px;
+  border: black 3px solid;
+  border-radius: 250px;
+  box-shadow: -10px 20px rgb(87, 144, 129);
+  margin-bottom: 60px;
+}
+
+/* content */
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-header {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 30px 20px 30px;
+  /* padding-bottom: 70px; */
+  border: black solid 3px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  box-shadow: -10px 30px rgb(255, 124, 112);
+}
+
+.pro {
+  margin-bottom: 5px;
+}
+
+/* .project-header--2 {
+  display: flex;
+  justify-content: center;
+} */
+
+.click {
+  margin-bottom: 40px;
+}
+
+.info {
+  text-align: center;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  border: black 3px solid;
+  margin-right: 70px;
+  box-shadow: 30px 80px rgb(106, 210, 255);
+}
+
+.pink {
+  color: rgb(255, 159, 175);
+  background-color: black;
+  border-radius: 10px;
+  width: 70px;
+  padding: 5px 0;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+/* web images */
+.sample--1,
+.sample--2 {
+  height: 300px;
+  border: 3px black solid;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.sample--1 {
+  /* box-shadow: 75px 20px; */
+  margin-right: 60px;
+}
+
+/* .sample--2 {
+  /* box-shadow: -35px 90px; */
+
+/* for future ref when wanting to create hover state on image
+  
+  <a href="/settings">
+    <img class="default" src="settings-default.svg"/>
+    <img class="hover" src="settings-hover.svg"/>
+    <span>Settings</span>
+</a>
+
+a img.hover {
+    display: none;
+}
+a img.default {
+    display: inherit;
+}
+a:hover img.hover {
+    display: inherit;
+}
+a:hover img.default {
+    display: none;
+}*/
